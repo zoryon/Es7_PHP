@@ -7,3 +7,17 @@
 body, html {
     background-color: aqua;
 }
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+input {
+    font-size: 0.95rem !important;
+}
